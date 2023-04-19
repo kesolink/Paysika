@@ -694,26 +694,48 @@ footer{
 
 
 /* **************************Media Quarry***************************** */
-@media only screen and (max-width: 761px){
+@media only screen and (max-width: 680px){
     .margin-container{
-        margin: 0px 90.5px;
+        margin: 0px 20px !important;
     }
     .header-left img, .header-right img{
         width: 100%;
     }
+    .header-section{
+        height: 70vh;
+    }
+    .header-img{
+        padding-top: 40px;
+    }
     .header-text-wrapper{
         position: relative;
         left: 1%;
-        top: -100%;
-
+        top: 50%;
+        bottom:-10px;
     }
     .header-text-wrapper h2{
-        font-size: 20px;
+        font-size: 27.85px;
 
     }
     .header-text-wrapper p{
         font-size: 16px;
     }
+    /* *****africa**** */
+    .africa-section{
+        position: relative;
+    }
+    .africa-section-wrrapper{
+        height: 75vh;
+    }
+    .text-wrapper{
+        position: absolute;
+        bottom: 200px;
+    }
+    /* ****logo***** */
+    .logo-wrap{
+        
+    }
+
     .adv-riv-left{
         display: none;
     }
